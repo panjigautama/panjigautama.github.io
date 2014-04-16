@@ -1,0 +1,15 @@
+name: "rhapsodixx"
+description: "pragmatic programmer stash"
+
+author: "Panji Gautama"
+
+url: "http://panjigautama.github.io"
+baseurl: ""
+
+markdown: rdiscount
+permalink: :year/:month/:title.html
+pygments: true
+
+# Google Analytics
+ga_domain: panjigautama.github.io
+ga_tracking_id: UA-43102971-5
