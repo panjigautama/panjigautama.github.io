@@ -4,7 +4,7 @@ description: "pragmatic programmer stash"
 author: "Panji Gautama"
 
 url: "http://panjigautama.github.io"
-baseurl: ""
+baseurl: "http://panjigautama.github.io"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
