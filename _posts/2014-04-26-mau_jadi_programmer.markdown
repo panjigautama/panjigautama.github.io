@@ -60,10 +60,12 @@ Android Anti-Pattern :
 #### #6 Test, test, dan test 
 
 Sudah pernah mendengar [TDD](http://en.wikipedia.org/wiki/Test-driven_development) ? Kamu tidak harus belajar TDD namun poin yang penting adalah kamu harus bisa membuat test, sehingga menghindari melakukan test secara manual. Test adalah kegiatan yang akan kamu lakukan repetitive, jadi berusahalah untuk membuatnya menjadi lebih mudah dengan otomatisasi. Ada banyak framework dan third-party tools yang bisa digunakan untuk test, namun kamu harus tau [Android Testing Fundamentals](http://developer.android.com/tools/testing/testing_android.html) dan kemudian coba untuk mempelajari :
-[Robotium ](http://robolectric.org/) serta [Robotium](https://code.google.com/p/robotium/). Ketika kamu sudah lebih mahir, kamu bisa cobain testing seru seperti [calaba.sh](http://calaba.sh/).
+[Roboelectric ](http://robolectric.org/) serta [Robotium](https://code.google.com/p/robotium/). Ketika kamu sudah lebih mahir, kamu bisa cobain testing seru seperti [calaba.sh](http://calaba.sh/).
 
 Beberapa tempat tambahan untuk belajar android :
 
 * [Reddit Android Dev](http://www.reddit.com/r/androiddev/)
 * [AndroidHive](http://www.androidhive.info/)
 * [StackOverflow](http://stackoverflow.com/questions/tagged/android)
+
+**jadi .. apa kamu juga pengen jadi programmer android ?**
