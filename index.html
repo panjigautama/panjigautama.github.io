@@ -1,21 +1,16 @@
 ---
 layout: default
-title: Homepage
 ---
 
-<div id="home">
-  <ul class="posts">
+<div class="home">
+
+  <h1 class="page-heading">Blog</h1>
+
+  <ul class="post-list">
     {% for post in site.posts %}
-      <li itemscope itemtype="http://schema.org/BlogPosting">
-        <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-          <div class="p-wrap">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="date"
-                itemprop="datePublished">
-              {{ post.date | date_to_string }}
-            </time>
-            <p itemprop="name headline">{{ post.title }}</p>
-          </div>
-        </a>
+      <li>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>

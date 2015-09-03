@@ -1,15 +1,15 @@
-name: "rhapsodixx"
+# Site settings
+title: "rhapsodixx"
+email: "panji.gautama@gmail.com"
 description: "pragmatic programmer stash"
-
-author: "Panji Gautama"
-
 url: "http://panjigautama.github.io"
 baseurl: "http://panjigautama.github.io"
+twitter_username: panji_g
+github_username: panjigautama
 
-markdown: rdiscount
-permalink: :year/:month/:title.html
-pygments: true
+# Build settings
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-# Google Analytics
-ga_domain: panjigautama.github.io
-ga_tracking_id: UA-43102971-5
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
